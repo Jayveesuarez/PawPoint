@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+#carousel {
+  width: 100%;
+  margin: auto;
+}
+
+#carousel img {
+  width: 100%;
+  height: 91.7vh;
+  /* border: 2px solid black; */
+}
+.slide {
+  display: none;
+}
+
+.text {
+  color: rgb(238, 239, 240);
+  background-color: rgba(37, 36, 36, 0.176);
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 120px;
+  font-size: 3em;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+}
+/* homePage.css */
+
+/* Styling for the "About Us" section */
+.about-us {
+  background-color: #fff;
+  border: 1px solid #000000;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+/* Styling for the "Services" section */
+.services {
+  background-color: #fff;
+  border: 1px solid #000000;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+
+/* homePage.css */
+
+.services {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+.services h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.services ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.services li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.services li::before {
+  content: "✓ ";
+  color: #2196F3;
+}
+
+/* Additional styles can be added as needed */
